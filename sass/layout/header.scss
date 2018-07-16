@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background: linear-gradient(
+                  to right bottom,
+                  rgba($color-black, 0.5),
+                  rgba($color-black, 0.8)),
+  url(../../img/hero.jpg) center;
+  // @keyframes
+  animation: slide 50s infinite;
+
+  &__container {
+    text-align: center;
+    position: absolute;
+    // sets h1 to start exactly top and left 50%
+    top: 50%;
+    left: 50%;
+    // corrects the above so that h1 is now centered or wherever an adjustment is needed
+    transform: translate(-50%, -50%);
+  }
+}
+
+.heading-primary {
+  margin-bottom: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  line-height: 4rem;
+
+  &--main {
+    font-size: 4rem;
+    color: $color-orange-primary;
+  }
+
+  &--sub {
+    color: $color-white;
+  }
+}

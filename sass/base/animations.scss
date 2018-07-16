@@ -1,0 +1,65 @@
+@keyframes slide {
+  12.5% {
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($color-black, 0.5),
+                    rgba($color-black, 0.8)),
+    url(../../img/1.jpg) center;
+  }
+
+  25% {
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($color-black, 0.5),
+                    rgba($color-black, 0.8)),
+    url(../../img/2.jpg) center;
+  }
+
+  37.5% {
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($color-black, 0.5),
+                    rgba($color-black, 0.8)),
+    url(../../img/3.jpg) center;
+  }
+
+  50% {
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($color-black, 0.5),
+                    rgba($color-black, 0.8)),
+    url(../../img/4.jpg) center;
+  }
+
+  62.5% {
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($color-black, 0.5),
+                    rgba($color-black, 0.8)),
+    url(../../img/5.jpg) center;
+  }
+
+  75% {
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($color-black, 0.5),
+                    rgba($color-black, 0.8)),
+    url(../../img/6.jpg) center;
+  }
+
+  87.5% {
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($color-black, 0.5),
+                    rgba($color-black, 0.8)),
+    url(../../img/7.jpg) center;
+  }
+
+  100% {
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($color-black, 0.5),
+                    rgba($color-black, 0.8)),
+    url(../../img/8.jpg) center;
+  }
+}

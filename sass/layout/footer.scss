@@ -1,0 +1,64 @@
+.footer {
+
+  &__social {
+    padding: 5rem;
+    background-color: $color-black;
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  &__link {
+    margin-right: 5rem;
+  }
+}
+
+.fa-facebook {
+  color: #2980b9;
+  transition: .2s;
+
+  &:active,
+  &:hover {
+    transform: translateY(-2rem);
+  }
+}
+
+.fa-twitter {
+  color: #3498db;
+  transition: .2s;
+
+  &:active,
+  &:hover {
+    transform: translateY(-2rem);
+  }
+}
+
+.fa-instagram {
+  color: #bc2a8d;
+  transition: .2s;
+
+  &:active,
+  &:hover {
+    transform: translateY(-2rem);
+  }
+}
+
+.fa-youtube {
+  color: #ff0000;
+  transition: .2s;
+
+  &:active,
+  &:hover {
+    transform: translateY(-2rem);
+  }
+}
+
+.fa-pinterest {
+  color: #bd081c;
+  transition: .2s;
+
+
+  &:active,
+  &:hover {
+    transform: translateY(-2rem);
+  }
+}

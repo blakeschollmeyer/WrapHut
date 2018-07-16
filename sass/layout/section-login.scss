@@ -1,0 +1,43 @@
+.section-login {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background: linear-gradient(
+                  to right bottom,
+                  rgba($color-black, 0.5),
+                  rgba($color-black, 0.8)),
+  url(../../img/hero.jpg) center;
+
+  &__form {
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28rem;
+    color: $color-white;
+  }
+
+  &__header-primary {
+    font-size: 4rem;
+    border-bottom: .5rem solid $color-orange-primary;
+    margin-bottom: 5rem;
+  }
+
+  &__field {
+    border-bottom: .1rem solid $color-orange-primary;
+
+    & i {
+      padding: 1rem;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    & input {
+      border: none;
+      outline: none;
+      background: none;
+      color: $color-white;
+      font-size: 1.8rem;
+    }
+  }
+}
