@@ -1,0 +1,48 @@
+.navigation {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 2rem;
+  background: $color-black;
+
+  &__logo {
+    text-decoration: none;
+    &--orange { color: $color-orange-primary; }
+    &--gray { color: gray; }
+  }
+
+  &__icon {
+    &--orange { color: $color-orange-primary; }
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+    padding: 1.5rem 3rem;
+    display: inline-block;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-white;
+  }
+                                                          // Devices Tab
+  &__shop-list {
+    position: absolute;
+    // remove bullets
+    list-style-type: none;
+  }
+
+  &__shop-item {
+    position: relative;
+  }
+
+  &__shop-link {
+
+      // remove underline
+      text-decoration: none;
+      color: white;
+      display: block;
+  }
+}

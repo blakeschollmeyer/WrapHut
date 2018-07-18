@@ -127,36 +127,36 @@ html {
   font-size: 10px;
   text-rendering: optimizeLegibility; }
 
-.navigation__nav {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 7rem;
-  padding: 1rem 10rem;
-  box-sizing: border-box;
-  background: black;
-  font-size: 2.5rem; }
-
-.navigation__logo {
-  text-decoration: none;
-  float: left;
-  padding: 1rem;
-  color: #e67e22; }
-
-.navigation__list {
-  list-style-type: none; }
-
-.navigation__item {
-  float: left;
-  padding: 1rem; }
-
-.navigation__link {
-  color: white;
-  text-decoration: none;
-  padding: 1rem;
-  transition: .3s; }
-  .navigation__link:hover {
-    border-bottom: #e67e22 solid 0.3rem; }
+.navigation {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 2rem;
+  background: black; }
+  .navigation__logo {
+    text-decoration: none; }
+    .navigation__logo--orange {
+      color: #e67e22; }
+    .navigation__logo--gray {
+      color: gray; }
+  .navigation__icon--orange {
+    color: #e67e22; }
+  .navigation__list {
+    list-style-type: none; }
+  .navigation__item {
+    padding: 1.5rem 3rem;
+    display: inline-block; }
+  .navigation__link {
+    text-decoration: none;
+    color: white; }
+  .navigation__shop-list {
+    position: absolute;
+    list-style-type: none; }
+  .navigation__shop-item {
+    position: relative; }
+  .navigation__shop-link {
+    text-decoration: none;
+    color: white;
+    display: block; }
 
 .header {
   position: relative;
@@ -237,7 +237,7 @@ html {
   height: 100vh;
   text-align: center;
   background-size: cover;
-  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../../img/hero.jpg) center; }
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../../../img/hero.jpg) center; }
   .section-contact__header-primary {
     font-size: 2rem;
     padding: 3rem; }
@@ -274,7 +274,7 @@ html {
   position: relative;
   height: 100vh;
   background-size: cover;
-  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../../img/hero.jpg) center; }
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../../../img/hero.jpg) center; }
   .section-login__form {
     position: relative;
     top: 50%;

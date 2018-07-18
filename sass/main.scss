@@ -5,12 +5,12 @@
 @import "components/buttons";
 @import "components/forms";
 
-@import "layout/html";
-@import "layout/body";
-@import "layout/navigation";
-@import "layout/header";
-@import "layout/footer";
+@import "layout/base/html";
+@import "layout/base/body";
+@import "layout/base/navigation";
+@import "layout/base/header";
+@import "layout/base/footer";
 
-@import "layout/section-discount";
-@import "layout/section-contact";
-@import "layout/section-login";
+@import "layout/base/section-discount";
+@import "layout/contact/section-contact";
+@import "layout/account/section-login";
