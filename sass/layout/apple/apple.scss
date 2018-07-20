@@ -1,0 +1,91 @@
+.section-apple {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+  font-size: 5rem;
+
+  &__item {
+    padding: 2rem;
+  }
+
+  &__link {
+
+    &:link,
+    &:visited {
+      color: $color-black;
+    }
+
+    &:hover,
+    &:active {
+      color: $color-orange-primary;
+    }
+  }
+
+  & p {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//.section-apple {
+//  text-align: center;
+//
+//  &__list {
+//
+//  }
+//
+//  &__item {
+//    display: inline-block;
+//  }
+//
+//  &__link {
+//
+//    &:link,
+//    &:visited {
+//      color: $color-black;
+//    }
+//
+//    &:hover,
+//    &:active {
+//      color: $color-orange-primary;
+//    }
+//  }
+//
+//  &__icon {
+//    padding: 3rem;
+//    font-size: 6rem;
+//
+//    & p {
+//      font-size: 1.5rem;
+//    }
+//  }
+//}

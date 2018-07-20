@@ -298,3 +298,40 @@ html {
       background: none;
       color: white;
       font-size: 1.8rem; }
+
+.section-apple {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+  font-size: 5rem; }
+  .section-apple__item {
+    padding: 2rem; }
+  .section-apple__link:link, .section-apple__link:visited {
+    color: black; }
+  .section-apple__link:hover, .section-apple__link:active {
+    color: #e67e22; }
+  .section-apple p {
+    font-size: 1.5rem; }
+
+.section-mobile-builder {
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .section-mobile-builder__item-phone {
+    text-align: center;
+    width: 500px; }
+    .section-mobile-builder__item-phone i {
+      font-size: 60rem; }
+  .section-mobile-builder__part-selection a {
+    margin: 1rem 0 0 0; }
+  .section-mobile-builder__item-menu {
+    text-align: center;
+    width: 50rem;
+    font-size: 6rem; }
+
+#1 {
+  width: 500px;
+  height: 500px; }
