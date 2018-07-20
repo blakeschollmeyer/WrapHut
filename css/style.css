@@ -330,8 +330,26 @@ html {
   .section-mobile-builder__item-menu {
     text-align: center;
     width: 50rem;
-    font-size: 6rem; }
-
-#1 {
-  width: 500px;
-  height: 500px; }
+    font-size: 6rem;
+    color: black;
+    border: 1px solid; }
+  .section-mobile-builder__dropdown {
+    color: orange;
+    border: 3px solid; }
+    .section-mobile-builder__dropdown__carbon {
+      color: yellow;
+      border: 3px solid; }
+      .section-mobile-builder__dropdown__carbon a {
+        text-decoration: none;
+        color: yellow; }
+      .section-mobile-builder__dropdown__carbon__options {
+        height: 100px;
+        color: green;
+        border: 3px solid;
+        display: flex; }
+        .section-mobile-builder__dropdown__carbon__options__carbon1 {
+          list-style-type: none;
+          color: blue;
+          border: 1px solid;
+          width: 20px;
+          height: 20px; }

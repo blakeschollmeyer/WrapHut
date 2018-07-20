@@ -1,10 +1,8 @@
-let current = 0,
-    slides = document.getElementsByClassName("header");
-
-setInterval(function() {
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.opacity = 0;
+function myFunction() {
+    var x = document.getElementsByClassName("section-mobile-builder__dropdown__carbon__options");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
     }
-    current = (current != slides.length - 1) ? current + 1 : 0;
-    slides[current].style.opacity = 1;
-}, 3000);
+}

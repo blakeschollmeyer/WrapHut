@@ -25,10 +25,42 @@
     text-align: center;
     width: 50rem;
     font-size: 6rem;
-  }
-}
+    color: black;
+    border: 1px solid;
 
-#1 {
-  width: 500px;
-  height: 500px;
+  }
+
+  //all dropdowns
+  &__dropdown {
+    color: orange;
+    border: 3px solid;
+
+    //is the first dropdown
+    &__carbon {
+      color: yellow;
+      border: 3px solid;
+
+      & a{
+        text-decoration: none;
+        color: yellow;
+      }
+
+      //holds patterns
+      &__options {
+        height: 100px;
+        color: green;
+        border: 3px solid;
+        display: flex;
+
+        //each individual pattern
+        &__carbon1 {
+          list-style-type: none;
+          color: blue;
+          border: 1px solid;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
 }
